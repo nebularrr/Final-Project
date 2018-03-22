@@ -1,0 +1,48 @@
+#top, #bottom, #left, #right {
+	background: #ef4260;
+	position: fixed;
+	}
+
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 20px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 20px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+#homepage img {
+	width: 500px;
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	margin-top: -50px;
+  	margin-left: -250px;
+}
+
+#nav {
+	background-color: #ef4260;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	margin-top: 5.5%;
+	left: 89.5%;
+
+}
+
+#accent {
+	display: block;
+	background-color: white;
+	position: fixed;
+	width: 10px;
+	height: 2px;
+	margin-top: 7.3%;
+	left: 91%;
+}
+
