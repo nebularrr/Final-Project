@@ -2,22 +2,25 @@ body {
 	background-color: white;
 }
 
-button {	
+#close {	
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
 	font-size: 30px;
 	background-color: transparent;
 	color: #ef4260;
 	position: fixed;
-	margin-top: 5.5%;
+	top: 10%;
 	left: 89.5%;
 	border: none;
 
 }
 
-#close a:visited{
-	color: #ef4260;
+#close a {
 	text-decoration: none;
+}
+
+#close a:visited {
+	color: #ef4260;
 }
 
 
@@ -25,16 +28,15 @@ button {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
 	font-size: 25px;
-  	top: 50%;
-  	left: 50%;
-  	margin-top: 5.5%;
-  	margin-left: 0px;
+  	margin-top: 20%;
+  	margin-left: auto;
   	line-height: 60px;
   	color: black;
   	text-align: center;
 }
 
-.nav a:visited {
+
+.nav a {
 	color: black;
 	text-decoration: none;
 	

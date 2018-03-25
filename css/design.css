@@ -5,78 +5,145 @@
 	height: 40px;
 	margin-top: 4%;
 	left: 89.5%;
+	z-index: 1;
+	stroke: none;
 
 }
 
-#accent {
-	display: block;
-	background-color: white;
-	position: fixed;
-	width: 10px;
-	height: 2px;
-	margin-top: 3%;
-	left: 100%;
+#nav a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 20px; 
+	text-align: center;
+	z-index: 1;
+
 }
+
 
 #logo {
-	position: fixed;
+	position: relative;
 	width: 200px;
 	margin-top: 4%;
 	left: 5%;	
-
 }
 
 
-
 h1 {
-	position: fixed;
+	position: relative;
 	top: 20%;
-	left: 51.5%;
-	margin-left: -150px;
+	margin-left: auto;
 	font-family: 'Cabin', sans-serif;
 	font-weight: 700;
 	font-size: 90px;
 	color: black;
 	text-align: center;
+	margin-bottom: 5%;
+	margin-top: 5%;
 }
 
 .body p{
 	position: relative;
-	top: 48%;
 	width: 70%;
 	left: 15%;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 18px;
 	color: black;
 	text-align: center;
 	line-height: 30px;
+	margin-bottom: 6.5%;
 }
 
-section-1 {
-
-	margin-left: 15%;
-	margin-right: 15%;
+.section-1 {
+	margin-left: 5.5%;
+	margin-right: 5.5%;
 
 }
 
 #entertainment img {
 
 	position: relative;
-	top: 71%;
-	width: 600px;
-	height: 400px;
-	left: 5.4%;
+	float: left;
+	width: 50%;
+	height: 30%;
 	background-size: cover;
 }
 
 #magazine img {
-	top: 71%;
 	position: relative;
-	left: 49%;
-	width: 600px;
-	height: 400px;
+	float: right;
+	width: 50%;
+	height: 30%;
 	background-size: cover;
 
 }
 
+.section-2 {
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+	margin-top: 5%;
+
+}
+
+
+#fashion img {
+
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 30%;
+	background-size: cover;
+}
+
+#campaign img {
+
+	position: relative;
+	float: right;
+	width: 50%;
+	height: 30%;
+	background-size: cover;
+}
+
+.section-3 {
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+	margin-top: 5%;
+
+
+}
+
+
+#web img {
+
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 30%;
+	background-size: cover;
+	margin-bottom: 7%;
+}
+
+#app img {
+
+	position: relative;
+	float: right;
+	width: 50%;
+	height: 30%;
+	background-size: cover;
+	margin-bottom: 3.5%;
+}
+
+footer {
+
+	position: relative;
+	left: -50px;
+	right: auto;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: black;
+	margin-bottom: 3%;
+
+}

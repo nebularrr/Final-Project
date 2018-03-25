@@ -1,0 +1,120 @@
+#nav {
+	background-color: #ef4260;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	margin-top: 4%;
+	left: 89.5%;
+	z-index: 1;
+	stroke: none;
+
+}
+
+#nav a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 20px; 
+	text-align: center;
+	z-index: 1;
+
+}
+
+
+#logo {
+	position: relative;
+	width: 200px;
+	margin-top: 4%;
+	left: 5%;	
+
+}
+
+
+
+h1 {
+	position: relative;
+	top: 20%;
+	margin-left: auto;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	font-size: 90px;
+	color: black;
+	text-align: center;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+#nabila1 {
+	float: left;
+	margin-left: 20%;
+	position: relative;
+	width: 20%;
+	margin-bottom: 1%;
+	padding-right: 1%;
+}
+
+#nabila {
+	float: center;
+	position: relative;
+	width: 20%;
+	margin-bottom: 1%;
+	padding-right: .6%;
+
+}
+
+#nabila3 {
+	
+	position: relative;
+	width: 20%;
+	margin-bottom: 1%;
+
+}
+
+.images {
+}
+
+.body p{
+	position: relative;
+	width: 70%;
+	left: 15%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 5%;
+
+}
+
+#resume {
+	width: 120px;
+	height: 35px;
+	background-color: #ef4260;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-bottom: 5%;
+
+}
+
+#resume a {
+	text-decoration: none;
+	color: white;
+}
+
+
+footer {
+
+	position: relative;
+	left: auto;
+	right: auto;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: black;
+	margin-bottom: 3%;
+
+}
