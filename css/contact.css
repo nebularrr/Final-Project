@@ -1,0 +1,118 @@
+
+
+#nav {
+	background-color: #ef4260;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	margin-top: 4%;
+	left: 89.5%;
+	z-index: 1;
+	stroke: none;
+
+}
+
+#nav a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 20px; 
+	text-align: center;
+	z-index: 1;
+
+}
+
+
+#logo {
+	position: relative;
+	width: 200px;
+	margin-top: 4%;
+	left: 5%;	
+
+}
+
+
+
+h1 {
+	position: relative;
+	top: 20%;
+	margin-left: auto;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	font-size: 90px;
+	color: black;
+	text-align: center;
+	margin-bottom: 0%;
+	margin-top: 5%;
+
+}
+
+h2 {
+	position: relative;
+	top: 20%;
+	margin-left: auto;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-bottom: 5%;
+	
+
+}
+
+input[type=text], select, textarea {
+    width: 50%; 
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ef4260; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; 
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; 
+    resize: vertical;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+	left: 30%;
+}
+
+
+input[type=submit] {
+    background-color: #ef4260;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	float: bottom; left;
+}
+
+
+input[type=submit]:hover {
+    background-color: #ef4260;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+
+footer {
+
+	position: relative;
+	left: auto;
+	right: auto;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: black;
+	margin-bottom: 3%;
+
+}
