@@ -62,13 +62,30 @@ h1 {
 
 }
 
+
 #entertainment img {
 
+text-align: center;
 	position: relative;
 	float: left;
 	width: 50%;
 	height: 30%;
 	background-size: cover;
+	z-index: 1;
+	background: transparent;
+}
+
+#entertainment h1 {
+	position: absolute;
+	margin-left: auto;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	top: 87%;
+	left: 19%;
+	z-index: 3;
 }
 
 #magazine img {
@@ -78,6 +95,19 @@ h1 {
 	height: 30%;
 	background-size: cover;
 
+}
+
+#magazine h1 {
+	position: absolute;
+	margin-left: auto;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	top: 87%;
+	left: 63%;
+	z-index: 2;
 }
 
 .section-2 {

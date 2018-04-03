@@ -1,0 +1,183 @@
+#nav {
+	background-color: #ef4260;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	margin-top: 4%;
+	left: 89.5%;
+	z-index: 1;
+	stroke: none;
+
+}
+
+#nav a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 20px; 
+	text-align: center;
+	z-index: 1;
+
+}
+
+
+#logo {
+	position: relative;
+	width: 200px;
+	margin-top: 4%;
+	left: 5%;	
+}
+
+
+h1 {
+	position: relative;
+	top: 20%;
+	margin-left: auto;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	font-size: 90px;
+	color: black;
+	text-align: center;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.body p{
+	position: relative;
+	width: 50%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 6.5%;
+}
+
+.section-1 {
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+	position: relative;
+	width: 80%;
+	background-size: cover;
+	padding-bottom: 1.5%;
+
+
+}
+
+
+.section-1 img{
+	position: relative;
+	background-size: cover;
+	padding-bottom: 4%;
+	left: 5%;
+}
+
+#two img {
+
+	float: left;
+	width: 36.2%;
+	
+}
+
+#one img {
+
+	float: right;
+	width: 59%;
+	
+}
+
+.section-2 img{
+	position: relative;
+	width: 80%;
+	background-size: cover;
+	padding-bottom: 1.5%;
+}
+
+#three img {
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+	margin-bottom: 2%;
+	float: left;
+	width: 41.6%;
+	
+}
+
+#four img {
+margin-right: 5.5%;
+margin-bottom: 2%;
+	float: right;
+	width: 41.6%;
+	
+}
+
+.section-3 img{
+	position: relative;
+	width: 80%;
+	background-size: cover;
+	padding-bottom: 1.5%;
+}
+
+#five img {
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+	margin-bottom: 2%;
+	float: left;
+	width: 41.6%;
+	
+}
+
+#six img {
+margin-right: 5.5%;
+margin-bottom: 2%;
+	float: right;
+	width: 41.6%;
+	
+}
+
+.section-4 img{
+	position: relative;
+	width: 80%;
+	background-size: cover;
+	padding-bottom: 1.5%;
+}
+
+#seven img {
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+
+	float: left;
+	width: 41.6%;
+	
+}
+
+#eight img {
+margin-right: 5.5%;
+margin-bottom: 2%;
+	float: right;
+	width: 41.6%;
+	
+}
+
+#nine img {
+margin-left: 5.5%;
+	margin-right: 5.5%;
+	margin-bottom: 2%;
+	width: 60%;
+	
+}
+
+
+
+.footer {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: black;
+	margin-bottom: 3%;
+
+}
+
+

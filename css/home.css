@@ -1,4 +1,4 @@
-#top, #bottom, #left, #right {
+#border, #top, #bottom, #left, #right {
 	background: #ef4260;
 	position: fixed;
 	}
@@ -17,15 +17,13 @@
 		#top { top: 0; }
 		#bottom { bottom: 0; }
 
-#homepage img {
-	width: 500px;
-	position: fixed;
-  	top: 50%;
-  	left: 50%;
-  	margin-top: -50px;
-  	margin-left: -250px;
-}
 
+/*#homepage img {
+	display: block;
+	width: 80%;
+	margin: auto;
+}
+*/
 #nav {
 	background-color: #ef4260;
 	position: fixed;
@@ -36,6 +34,88 @@
 
 }
 
+.home {
+	left: 40%;
+	position: 
+}
+
+#n img {
+	float: left;
+	margin-top: 20%;
+	width: 8%;
+	margin-left: 26%;
+	margin-top: 26%;
+
+	}
+
+.lettermeaning #n-text p{
+
+	position: fixed;
+	display: block;
+	top: 50%;
+	left: 10%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: black;
+	margin-top: 50%;
+	
+}
+
+	#a img {
+
+	float: right;
+	width: 8%;
+margin-top: 25.5%;
+
+	position: fixed;
+	
+	}
+
+	#b img {
+
+	float: right;
+	width: 8%;
+margin-top: 25.5%;
+left: 42.5%;
+z-index: 2;
+	position: fixed;
+	
+	}
+
+	#i img {
+
+	float: right;
+	width: 8%;
+margin-top: 25.5%;
+left: 50%;
+	position: fixed;
+	z-index: 1;
+	
+	}
+
+
+	#l img {
+
+	float: right;
+	width: 8%;
+margin-top: 25.5%;
+left: 58%;
+	position: fixed;
+	z-index: 1;
+	
+	}
+
+	#a2 img {
+
+	float: right;
+	width: 8%;
+margin-top: 25.5%;
+left: 66%;
+	position: fixed;
+	z-index: 1;
+	
+	}
 
 #nav a{
 	text-decoration: none;
@@ -51,4 +131,5 @@
 	border-style: none;
 
 }
+
 
